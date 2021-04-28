@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+
+/* HTML Styles */
+
+html {
+    background-color: rgb(28,32,35)
+}
+
+/* Body Styles */
+
+body > header {
+color: white;
+text-align: center;
+box-shadow: 9px 9px 9px 9px aqua;
+    
+}
+
+body > header > h1 {
+    text-shadow: 5px 5px 5px aqua;
+}
+
+
+body > article> h1 {
+    font-size: 2.0em;
+    background-color: aqua;
+	color: black;
+}
+
+body > article p {
+    font-size: 1.3em;
+    color: white
+}
+
+body > article > blockquote {
+    font-size: 1.5em;
+    color: white
+}
+
+
+body > article > h2 {
+    font-size: 1.8em;
+    background-color: aqua;
+    color: black;
+
+}
+
+body > article > ol {
+    font-size: 1.2em;
+    color: white;
+}
+
+body > article > ol > li {
+    list-style-type: circle
+}
+
+
+body > article > ol > li > a{
+color:aqua;
+text-decoration: none;
+}
+    
+body > div > section > h2 {
+    font-size: 1.8em;
+    background-color: aqua;
+    color: black;
+    
+}
+
+body > div > section > p {
+    
+    margin-left: 22%;
+    font-size: 1.5em;
+    color: white;
+}
+
+body > nav > ul > li > a:hover {
+    background-color: yellow;
+}
+
+
+/* Navigation Styles */
+
+nav > h1 {
+    background-color:aqua; 
+}
+
+nav > ul > li {
+	font-size: 1.3em;
+    line-height: 1.5em;
+	list-style-type: circle;
+    color: aqua;
+	padding-left: 5px;
+
+}
+
+
+nav > ul > li > a {
+color:aqua;
+text-decoration: none;
+    
+}
+
+nav > ul > li.newgroup {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+
+/* Aside and Blockquotes Styles */
+
+aside {
+    font-size: 1.4em;
+    flex-wrap: nowrap;
+    flex-flow: column;
+}
+
+aside > h1 {
+    background-color: aqua;
+}
+aside > blockquote {
+    
+    color: aqua;
+    margin: 20px 5px;
+}
+
+/* Footer Styles */
+
+

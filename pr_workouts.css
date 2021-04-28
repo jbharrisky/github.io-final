@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+
+/* HTML Styles */
+
+html {
+    background-color: rgb(28,32,35)
+}
+
+/* Body Styles */
+
+body > header {
+color: white;
+width: 95%;
+text-align: center;
+box-shadow: 9px 9px 9px 9px aqua;
+    
+}
+
+body > header > h1 {
+    text-shadow: 5px 5px 5px aqua;
+}
+
+
+body > article > h1 {
+    width: 100%;
+    font-size: 2.0em;
+    background-color: aqua;
+	color: black;
+}
+
+body > article p {
+    font-size: 1.3em;
+    color: white
+}
+
+body > article > h2 {
+    display: inline-block;
+    font-size: 1.6em;
+    background-color: aqua;
+    color: black;
+
+}
+
+body > article > ol {
+    display: block;
+    font-size: 1.2em;
+    color: white;
+}
+
+
+body > article > ol > li {
+    list-style-type: circle
+}
+
+
+body > article > ol > li > a{
+color:aqua;
+text-decoration: none;
+    
+}
+
+/* Navigation Styles */
+
+nav > h1 {
+    background-color:aqua; 
+}
+
+nav > ul > li {
+	font-size: 1.3em;
+    line-height: 1.5em;
+	list-style-type: circle;
+    color: aqua;
+	padding-left: 5px;
+
+}
+
+
+nav > ul > li > a {
+color:aqua;
+text-decoration: none;
+    
+}
+
+nav > ul > li.newgroup {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+
+/* Footer Styles */
+
+body > footer {
+    background: aqua;
+    color: black;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.2em;
+}
